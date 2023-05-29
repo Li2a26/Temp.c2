@@ -1,0 +1,67 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightskyblue;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    text-align: center;
+}
+.temp {
+    color:rgb(18, 18, 239);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.label{
+    font-size: 25px;
+    color: navy;   
+}
+
+#temp1 {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    border-color: rgb(63, 63, 254);
+    outline: none;
+}
+#temp-2 {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    border-color: rgb(63, 63, 254);
+    outline: none;
+}
+
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    border-color: blue;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgb(218 229 220);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+#submit:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#result{
+    font-size: 27px;
+}
+
